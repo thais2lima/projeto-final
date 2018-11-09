@@ -1,0 +1,738 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+    line-height: 1.5;
+}
+
+.wrapper {
+    width: 102%;
+    margin-top: -12px;
+    margin-left: -12px;
+    height: 109px;
+    position: fixed;
+    background: white;
+    display: flex;
+    box-shadow: 0 0 12px #edebe9;
+    z-index: 10;
+}
+
+header {
+    width: 680px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navigationdesktop {
+    margin-left: 40px;
+    padding-top: 43px;
+}
+
+.logo {
+    padding-top: 60px;
+    height: 30px;
+    width: 590px;
+    margin-left: -118px;
+}
+
+nav {
+    height: 70px;
+    width: 560px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: all 0.7s ease;
+}
+
+nav a:hover {
+    background: #F0DB48;
+}
+
+nav ul {
+    list-style: none;
+    width: 103%;
+    margin-left: -42px;
+}
+
+nav ul li {
+    float: left;
+    width: 115px;
+    height: 49px;
+    line-height: 49px;
+    background: white;
+}
+
+nav ul ul li {
+    position: relative;
+    display: none;
+    width: 100%;
+}
+
+nav ul li:hover ul li {
+    display: block;
+}
+
+
+
+
+
+
+
+
+.primeirobloco {
+    background: #fff09c url('../img/home1-arroz.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.primeirobloco .container{
+    margin-top: -50px;
+    width: 90%;
+    margin-left: 70px;
+    margin-right: 0px;
+    max-width: 530px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 42px;
+    padding: 10px 0;
+}
+
+.btn1{
+    display: inline-block;
+    align-self: flex-end;
+    margin-left: -551px;
+    margin-bottom: 156px;
+}
+
+
+a.btn-bloco1 {
+    display: inline-block;
+    font-size: 16px;
+    width: 130px;
+    height: 25px;
+    padding: 15px;
+    margin-right: 10px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px black solid;
+}
+
+
+/* A cozinharia - bloco esquerdo*/
+
+.divisao {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+}
+
+.acozinharia .divisao {
+    margin: 104px auto;
+}
+
+.esquerda {
+    width: 49%;
+    margin-right: 10px;
+}
+
+.h2 {
+    font-size: 36px;
+}
+
+.btn2 {
+    text-transform: uppercase;
+    border: solid 2px #F0DB48;
+    background-color: #F0DB48;
+    color: black;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+    margin-right: 16px;
+}
+
+/* A cozinharia - bloco direito*/
+
+.direita {
+    width: 49%;
+}
+
+
+/* Nosso cardápio*/
+
+.nossocardapio {
+    background-color: #F0DB48;
+    text-align: center;
+}
+
+.mosaico {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.conteudo {
+    margin: 48px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.btn3 {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+    margin-right: 16px;
+    border: solid 2px black;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* Eventos */
+
+.oseventos {
+    background-color: #fff;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.oseventos .container{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.oseventos .direita {
+    margin-left: 4%;
+}
+
+
+.btn-oseventos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+
+.btn4 {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+    margin-right: 16px;
+    text-transform: uppercase;
+    border: solid 2px #F0DB48;
+    background-color: #F0DB48;
+    color: black;
+}
+
+/* footer */
+
+footer {
+    display: block;
+    background: #F0DB48;
+    align-items: center;
+}
+
+footer .container {
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.endereco {
+    width: 48%;
+    margin-right: 10px;
+}
+
+.funcionamento {
+    width: 48%;
+    margin-right: 10px;
+}
+
+footer .social {
+    width: 30%;
+    margin-left: 2%;
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social img{
+    width: 40%;
+}
+
+/* A cozinharia*/
+
+.c-primeirobloco {
+    background-color: #f8f8f8;
+    padding-bottom: 50px;
+}
+
+.c-primeirobloco .container {
+    padding-top: 100px;
+}
+
+.c-primeirobloco .esquerda {
+    width: 40%;
+}
+
+.direita img {
+    width: 100%;
+    display: block;
+}
+
+.c-segundobloco {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 350px;
+}
+
+.c-galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.c-galeria a {
+    width: 16%;
+}
+
+.c-galeria img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+}
+
+/*Cardapio*/
+
+
+.ocardapio {
+    background-color: #f8f8f8;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    border-spacing: 0;
+}
+
+th {
+    font-size: 17px;
+    font-weight: 600;
+    color: #A3A3A3;
+}
+
+th, td {
+    padding: 8px 0;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.c-mosaico {
+    margin: 48px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+}
+
+.c-mosaico figure {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 548px;
+    min-width: 300px;
+    width: 33.3%;
+}
+
+.c-mosaico img {
+    width: 100%;
+}
+
+.c-mosaico figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 16px;
+    color: #A3A3A3;
+    padding-left: 16px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/*Contatos*/
+
+.contatos{
+    background-color: #f8f8f8;
+}
+
+.esquerda .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.imgesq0{
+    width: 3%;
+    margin-right: 8px;
+    height: 2%;
+    margin-top: 3%;
+}
+
+.imgesq {
+    width: 4%;
+    margin-right: 8px;
+    height: 5%;
+    margin-top: 3%;
+}
+
+iframe {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*casamentos*/
+
+.casorio {
+    background-color: #f8f8f8;
+}
+
+.casorio .container img {
+    width: 60%;
+}
+
+/* estilização de botoes */
+
+.btn1, .btn2, .btn3, .btn4 {
+    text-decoration: none;
+}
+
+.btn-bloco1 {
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: all 0.7s ease;
+}
+
+.btn-bloco1:hover {
+    background: #F0DB48;
+}
+
+.btn3 {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px;
+    margin-right: 16px;
+    border: solid 2px black;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    transition: all 0.7s ease;
+}
+
+.btn3:hover {
+    background: #f8f8f8;
+}
+
+
+/*h2*/
+
+.h2acozinharia {
+    padding-top: 40px;
+}
+
+.h2eventos {
+    padding-top: 100px;
+}
+
+.h2contato {
+    padding-top: 100px;
+}
+
+.h2cardapio {
+    padding-top: 125px;
+}
+
+
+/* hr */
+
+.hrnossocardapio {
+    width: 7%;
+    height: 1px;
+    border: none; 
+    border-top: 3px solid white;
+    color:#F0DB48; 
+}
+
+.hracozinharia {
+    width: 12%; 
+    height: 1px; 
+    border: none; 
+    border-top: 3px solid #F0DB48; 
+    color: #f8f8f8;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.hreventos {
+    width: 12%; 
+    height: 1px; 
+    border: none; 
+    border-top: 3px solid #F0DB48; 
+    color: #f8f8f8; 
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.hrcozinharia {
+    width: 6%; 
+    height: 1px;
+    border: none; 
+    border-top: 3px solid #F0DB48; 
+    color: #f8f8f8; 
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.hrgaleria {
+    width: 6%; 
+    height: 1px;
+    border: none; 
+    border-top: 3px solid #F0DB48; 
+    color: #f8f8f8;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.hrcardapio2 {
+    width: 6%; /* coloque a largura desejada */
+    height: 1px; /* altura varia, no seu caso é 1px */
+    border: none; /* eu prefiro usar o none ao 0 */
+    border-top: 3px solid #F0DB48; /* no seu caso mude a cor */
+    color: #f8f8f8; /* a cor de fundo do layer pra deixar "invisivel" a HR */
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.hreventos2 {
+    width: 6%; /* coloque a largura desejada */
+    height: 1px; /* altura varia, no seu caso é 1px */
+    border: none; /* eu prefiro usar o none ao 0 */
+    border-top: 3px solid #F0DB48; /* no seu caso mude a cor */
+    color: #f8f8f8; /* a cor de fundo do layer pra deixar "invisivel" a HR */
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+/* formulario */
+
+.form-container {
+    width: 20%;
+  }
+  
+  .form-contact {
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .form-contact-input {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    color: #292929;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+  .form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .form-contact-button {
+    width: 50%;
+    border-radius: 4px;
+    color: #fff;
+    height: 30px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #B22222;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    transition: 1s;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }
+
+
+
+
+/* galeria */
+
+.nossocardapio .mosaico .gallery {
+margin: 48px 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+}
+
+
+.nossocardapio .gallery img {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 378px;
+    min-width: 200px;
+}
+
+.nossocardapio figure span {
+font-size: 14px;
+line-height: 1.5;
+padding-bottom: 14px;
+display: none;
+}
+
+.nossocardapio figure.active span {
+display: block;
+}
+
+
+
+
+
+
+
+
+#painel {
+    width: 920px;
+    height:160px;
+    float: left;
+    margin-left: 116px;
+}
+
+#galeria {
+    width: 1586px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    position: relative;
+    top: 0;
+    
+}
+
+.setas {
+    width: 15px;
+    height: 172px;
+    float: left;
+    text-align: center;
+    background:#F0DB48;
+    color:#fff;
+    font:20px;
+}
+
+.fotos {
+    width: 260px;
+    height: 170px;
+    float: left;
+    background: #FFF;
+    border: solid 1px #FFF;
+}
+
+#overflow {
+    width: 890px;
+    height:173px;
+    float: left;
+    background:white;
+    overflow: hidden;
+}

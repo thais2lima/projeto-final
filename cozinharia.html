@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Cozinharia</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+        
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+            <header>
+                <img src="img/logo-cozinharia.svg" class="logo" alt="logo cozinharia">
+            </header>
+            <div class="navigationdesktop">
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="cozinharia.html">A Cozinharia</a></li>
+                        <li><a href="cardapio.html">Cardápio</a></li>
+                        <li><a href="#">Eventos</a>
+                            <ul class="dropdown">
+                                <li><a href="casamentos.html">Casamentos</a></li>
+                                <li><a href="empresariais.html">Empresariais</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <section class="c-primeirobloco">
+                <div class="container">
+                    <h2 class="h2acozinharia">A Cozinharia</h2>
+                    <hr class="hrcozinharia">
+
+                    <div class="divisao">
+
+                        <div class="esquerda">
+                            
+                            <h3>Ambiente tranquilo, música ao vivo</h3>
+                            
+                            <p>A cozinharia conta com um ambiente amigável, repleto de muitas árvores nativas e música brasileira ao vivo.</p>
+
+                            <h3>Horários dos musicais:</h3>
+                            <p>Terça a quinta-feira - das 18h às 22h <br/>
+                            Sexta e sábado - das 11h às 02h<br/>
+                            Domingo - das 11h às 22h</p>
+
+                            <h3>Playground para a criançada</h3>
+                            <p>Temos parquinho rodeado de árvores para que as crianças se divirtam em contato com a natureza!</p>
+
+                            <h3>Horta orgânica</h3>
+                            <p>Todos os pratos são feitos com legumes e vegetais produzidos em nossa horta orgânica!</p>
+                        </div>
+
+                        <div class="direita">
+                            <div class="section1-left"> 
+                                <img src="https://programaria.github.io/cozinharia/img/a-cozinharia-1.jpg" alt="Foto de uma mesa de jantar com foco no prato servido">
+                                <img src="https://programaria.github.io/cozinharia/img/a-cozinharia-2.jpg" alt="Foto com quatro mãos segurando um recipiente com tomates">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section class="c-segundobloco">
+                <div class="container">
+                    <h2>Galeria de fotos</h2>
+                    <hr class="hrgaleria">
+
+                    <div id="painel">
+                            <a class="setas" onmouseover ="moveEsquerda();" onmouseout = "new moveEsquerda().stop()"><</a>
+                        <div id="overflow">
+                        <div id="galeria">
+                            <img alt="foto 01" class="fotos" src="https://programaria.github.io/cozinharia/img/cardapio-1.jpg" />
+                            <img alt="foto 02" class="fotos" src="https://programaria.github.io/cozinharia/img/cardapio-2.jpg" />
+                            <img alt="foto 03" class="fotos" src="https://programaria.github.io/cozinharia/img/cardapio-3.jpg" />
+                            <img alt="foto 04" class="fotos" src="https://programaria.github.io/cozinharia/img/cardapio-4.jpg" />
+                            <img alt="foto 05" class="fotos" src="https://programaria.github.io/cozinharia/img/cardapio-5.jpg" />
+                            <img alt="foto 06" class="fotos" src="https://programaria.github.io/cozinharia/img/cardapio-6.jpg" />
+                        </div>
+                        </div>
+                            <a class="setas" onmouseover ="moveDireita();" onmouseout = "new moveDireita().stop()">></a>
+                        </div>
+
+                    <!--<div class="c-galeria">
+                        <img src="https://programaria.github.io/cozinharia/img/cardapio-1.jpg" alt="foto do prato de legumes flambados">
+                        <img src="https://programaria.github.io/cozinharia/img/cardapio-2.jpg" alt="foto do prato de macarrão com polvo">
+                        <img src="https://programaria.github.io/cozinharia/img/cardapio-3.jpg" alt="foto do prato de Pudim frutas vermelhas">
+                        <img src="https://programaria.github.io/cozinharia/img/cardapio-4.jpg" alt="foto da bebida Martini Moonlight">
+                        <img src="https://programaria.github.io/cozinharia/img/cardapio-5.jpg" alt="foto do prato risoto de cenoura">
+                        <img src="https://programaria.github.io/cozinharia/img/cardapio-6.jpg" alt="foto do prato de frutas com grãos">             
+                    </div>
+                </div>-->
+        </section>
+
+        <footer class="rodape">
+            <div class="container">
+                <div class="endereco">
+                    <p class="bold">A Cozinharia</p>
+                    Rua Frei Caneca, 920 - Consolação<br/>
+                    Tel: 11 4443 0324<br/>
+                    e-mail: contato@acozinharia.com.br
+                </div>
+        
+                <div class="funcionamento"> 
+                    <p class="bold">Funcionamento:</p>
+                    Segunda a Quarta das 12h às 15h / 19h30 às 23h<br/>
+                    Quinta e Sexta das 12h às 15h / 19h30 às 00h<br/>
+                    Sábado das 12h às 00h - direto<br/>
+                    Domingo das 12h às 17h
+                    </div>
+        
+                <div class="social">
+                    <a href="https://twitter.com/programaria" target="_blank">
+                        <img src="img/twitter-01.png" alt="logo do Twitter">
+                    </a>
+                    <a href="https://www.facebook.com/programaria/" target="_blank">
+                        <img src="img/facebook-01.png" alt="logo do Facebook">
+                    </a>
+                    <a href="https://www.linkedin.com/company/programaria.org" target="_blank">
+                        <img src="img/linkedin-01.png" alt="logo do Linkedin">
+                    </a>
+                </div>
+            </div>
+        </footer>
+        
+
+        <script src="main.js"></script>
+
+</body>
+
+</html>
